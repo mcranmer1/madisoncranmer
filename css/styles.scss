@@ -1,0 +1,342 @@
+// Framework
+@import 'bulma';
+
+// Light Gallery Base Styling
+@import 'lightgallery';
+// Light Gallery Animations
+@import 'lg-transitions';
+  
+
+
+body {
+  background: #CC8383;
+  font-color: black;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  transform: scale(1.5);
+  color: black
+}
+
+img[alt=MC]:hover {
+  transform: scale(1.25);
+}
+
+
+// Letting
+#M, #a, #d, #i, #s, #o, #n, #C, #r, #a_1_, #n_1_, #m, #e, #r_1_ {
+    fill: transparent;
+    stroke-width: 2px;
+}
+
+#M { 
+  stroke-dasharray: 1900px;
+  stroke-dashffset: 1900px;
+  animation: M 4s linear forwards;
+}
+
+
+#a { 
+  stroke-dasharray: 470px; 
+  stroke-dashoffset: 470px;
+  animation: a 1s linear 2s forwards;
+}
+
+#d { 
+  stroke-dasharray: 440px; 
+  stroke-dashoffset: 440px;
+  animation: d 1s linear 3s forwards;
+}
+
+#i { 
+  stroke-dasharray: 240px; 
+  stroke-dashoffset: 240px;
+  animation: i 1s linear 4s forwards;
+}
+
+#s { 
+  stroke-dasharray: 300px; 
+  stroke-dashoffset: 300px;
+  animation: s 1s linear 5s forwards;
+}
+
+#o { 
+  stroke-dasharray: 280px; 
+  stroke-dashoffset: 280px;
+  animation: o 1s linear 6s forwards;
+}
+
+#n { 
+  stroke-dasharray: 460px; 
+  stroke-dashoffset: 460px;
+  animation: n 1s linear 7s forwards;
+}
+
+#C { 
+  stroke-dasharray: 840px; 
+  stroke-dashoffset: -840px;
+  animation: C 2s linear 8s forwards;
+}
+
+#r { 
+  stroke-dasharray: 410px; 
+  stroke-dashoffset: -410px;
+  animation: r 1s linear 9s forwards;
+}
+
+#a_1_ { 
+  stroke-dasharray: 470px; 
+  stroke-dashoffset: -470px;
+  animation: a1 1s linear 10s forwards;
+}
+
+#n_1_ { 
+  stroke-dasharray: 460px; 
+  stroke-dashoffset: -460px;
+  animation: n1 1s linear 11s forwards
+}
+
+#m { 
+  stroke-dasharray: 660px; 
+  stroke-dashoffset: -660px;
+  animation: m 1s linear 12s forwards;
+}
+
+#e { 
+  stroke-dasharray: 280px; 
+  stroke-dashoffset: -280px;
+  animation: e 1s linear 13s forwards;
+}
+
+#r_1_ { 
+  stroke-dasharray: 410px; 
+  stroke-dashoffset: -410px;
+  animation: r1 1s linear 14s forwards;
+}
+
+// Letter Keyframes
+
+@keyframes M {
+
+from {
+  stroke-dashoffset: 1900px;
+  }
+
+to {
+  stroke-dashoffset: 0px;
+  }
+  
+}
+
+@keyframes a {
+
+from {
+  stroke-dashoffset: -470px
+  }
+
+to {
+  stroke-dashoffset: 0px;
+  }
+  
+}
+
+@keyframes d {
+  
+from {
+  stroke-dashoffset: -440px
+  }
+
+to {
+  stroke-dashoffset: 0px;
+  }
+  
+}
+
+@keyframes i {
+  
+from {
+  stroke-dashoffset: -240px
+  }
+
+to {
+  stroke-dashoffset: 0px;
+  }
+  
+}
+
+@keyframes s {
+  
+from {
+  stroke-dashoffset: -300px
+  }
+
+to {
+  stroke-dashoffset: 0px;
+  }
+  
+}
+
+@keyframes o {
+  
+from {
+  stroke-dashoffset: -280px
+  }
+
+to {
+  stroke-dashoffset: 0px;
+  }
+  
+}
+
+@keyframes n {
+  
+from {
+  stroke-dashoffset: -460px
+  }
+
+to {
+  stroke-dashoffset: 0px;
+  }
+  
+}
+
+@keyframes C {
+  
+from {
+  stroke-dashoffset: -840px
+  }
+
+to {
+  stroke-dashoffset: 0px;
+  }
+  
+}
+
+@keyframes r {
+  
+from {
+  stroke-dashoffset: -410px
+  }
+
+to {
+  stroke-dashoffset: 0px;
+  }
+  
+}
+
+@keyframes a1 {
+  
+from {
+  stroke-dashoffset: -470px
+  }
+
+to {
+  stroke-dashoffset: 0px;
+  }
+  
+}
+
+@keyframes n1 {
+  
+from {
+  stroke-dashoffset: -460px
+  }
+
+to {
+  stroke-dashoffset: 0px;
+  }
+  
+}
+
+@keyframes m {
+  
+from {
+  stroke-dashoffset: -660px
+  }
+
+to {
+  stroke-dashoffset: 0px;
+  }
+  
+}
+
+@keyframes e {
+  
+from {
+  stroke-dashoffset: -280px
+  }
+
+to {
+  stroke-dashoffset: 0px;
+  }
+  
+}
+
+@keyframes r1 {
+  
+from {
+  stroke-dashoffset: -410px
+  }
+
+to {
+  stroke-dashoffset: 0px;
+  }
+  
+}
+
+.main {
+  margin-top: 4%;
+}
+
+.about {
+  padding-top: 4%;
+}
+
+.box {
+  background: #CC8383;
+  padding: 2%;
+  box-shadow: 2px 4px 10px;
+}
+
+#hello {
+  font-family: 'Great Vibes', cursive;
+}
+
+.sidebar {
+  margin-top: 2%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+}
+
+.sidebar2 {
+  margin-bottom: 2%;
+  margin-left: 3%;
+}
+
+.button .is-link {
+  background: #CC8383;
+}
+
+h5 {
+  padding: 4% 0 4% 0;
+}
+
+// Work HTML
+.square {
+  width: 200;
+  height: 200;
+  background: #CC8383;
+}
+
+.design {
+  font-family: 'Great Vibes', cursive;
+}
+
+
+
+
+

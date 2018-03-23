@@ -13386,7 +13386,21 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 body {
   background: #CC8383;
-  font-color: black;
+  color: black;
+}
+
+#fonttwo {
+  font-family: 'Montserrat', sans-serif;
+}
+
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  color: black;
 }
 
 a {
@@ -13659,20 +13673,34 @@ img[alt=MC]:hover {
   margin-left: 3%;
 }
 
-.button .is-link {
-  background: #CC8383;
-}
-
-h5 {
-  padding: 4% 0 4% 0;
+.design {
+  font-family: 'Great Vibes', cursive;
+  margin-top: 2%;
 }
 
 .square {
-  width: 200;
-  height: 200;
+  padding-top: 2%;
+}
+
+.footer {
   background: #CC8383;
 }
 
-.design {
-  font-family: 'Great Vibes', cursive;
+.icons {
+  margin: 2%;
+  padding: 1%;
+}
+
+.border {
+  border-top: 1px solid #C9BDBD;
+  border-bottom: 1px solid #C9BDBD;
+}
+
+.padding {
+  margin-top: 6%;
+}
+
+.spacing {
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
